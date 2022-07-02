@@ -1,6 +1,7 @@
 {
   "name": "algo-viz",
   "version": "0.1.0",
+ 
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -17,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +51,5 @@
   "bugs": {
     "url": "https://github.com/Parasmanithakur/AlgoVisual/issues"
   },
-  "homepage": "https://github.com/Parasmanithakur/AlgoVisual#readme"
+  "homepage": "https://parasmanithakur.github.io/AlgoVisual/"
 }
